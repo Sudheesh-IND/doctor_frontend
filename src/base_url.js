@@ -1,0 +1,1 @@
+export const base_url='https://doctor-backend-y5eo.onrender.com'
