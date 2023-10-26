@@ -18,7 +18,7 @@ function Footer() {
             color='link'
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-white m-1'
             href='#!'
             role='button'
           >
@@ -30,7 +30,7 @@ function Footer() {
             color='link'
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-white m-1'
             href='#!'
             role='button'
           >
@@ -42,7 +42,7 @@ function Footer() {
             color='link'
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-white m-1'
             href='#!'
             role='button'
           >
@@ -54,7 +54,7 @@ function Footer() {
             color='link'
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-white m-1'
             href='#!'
             role='button'
           >
@@ -66,7 +66,7 @@ function Footer() {
             color='link'
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-white m-1'
             href='#!'
             role='button'
           >
@@ -78,7 +78,7 @@ function Footer() {
             color='link'
             floating
             size="lg"
-            className='text-dark m-1'
+            className='text-white m-1'
             href='#!'
             role='button'
           >
@@ -87,9 +87,9 @@ function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center text-white p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2020 Copyright:
-        <a className='text-dark' href='https://mdbootstrap.com/'>
+        <a className='text-white' href='https://mdbootstrap.com/'>
           Doctorhere.com
         </a>
       </div>

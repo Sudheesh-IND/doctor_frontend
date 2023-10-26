@@ -16,8 +16,10 @@ function Doctorcard({doctors}) {
       {
         doctors.map((item)=>(
             <MDBCard className='card' style={{width:'280px',margin:'20px', border: '3px solid rgb(0, 185, 148)'}}>
-            <MDBCardImage src='https://thumbs.dreamstime.com/b/online-doctor-physician-stethoscope-video-smartphone-medical-advice-consultation-service-vector-illustration-185253229.jpg' position='top' alt='...' />
-            <MDBCardBody>
+           <div style={{width:'100%',height:'300px',padding:'30px'}}>
+           <MDBCardImage  style={{width:'100%',height:'300px'}} src={item.image_url} position='top' alt='...' />
+           </div>
+            <MDBCardBody className='mt-3'>
               <MDBCardTitle>{item.name}</MDBCardTitle>
               <MDBCardText>
                 <p>{item.specialty}</p>
